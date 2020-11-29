@@ -1,4 +1,4 @@
-service: vestry-first-rsapp
+service: vestry-aws-course
 
 frameworkVersion: '2'
 
@@ -13,7 +13,7 @@ plugins:
 
 custom:
   client:
-    bucketName: vestry-rs-school-aws-fe-auto-deploy
+    bucketName: vestry-aws-fe-auto-deploy
     distributionFolder: build
     manageResources: false
     indexDocument: index.html
